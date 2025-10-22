@@ -1,0 +1,9 @@
+button{
+    color: rgb(0, 255, 26);
+    border-radius: 10px;
+    box-shadow: 8px 4px 4px;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+}
