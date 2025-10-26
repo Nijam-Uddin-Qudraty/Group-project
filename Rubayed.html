@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Backend Developer Profile</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #2563eb, #06b6d4);
+    }
+
+    .profile-card {
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+      text-align: center;
+      padding: 40px 30px;
+      width: 320px;
+      transition: transform .3s ease, box-shadow .3s ease;
+    }
+    .profile-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.2);
+    }
+
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: 0 auto 15px;
+      border: 4px solid #2563eb;
+      background: url('https://avatars.githubusercontent.com/u/00000000?v=4') center/cover no-repeat;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 22px;
+      color: #111827;
+    }
+
+    h4 {
+      margin: 6px 0 12px;
+      color: #2563eb;
+      font-weight: 500;
+    }
+
+    p {
+      font-size: 14px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    .skill {
+      background: #e0e7ff;
+      color: #1e3a8a;
+      font-size: 13px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-weight: 500;
+    }
+
+    .socials {
+      margin-top: 20px;
+    }
+    .socials a {
+      margin: 0 6px;
+      text-decoration: none;
+      color: #2563eb;
+      font-size: 20px;
+      transition: color .2s;
+    }
+    .socials a:hover {
+      color: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <div class="avatar"></div>
+    <h2>Rubayed Prodhan</h2>
+    <h4>Backend Developer</h4>
+    <p>I'm a backend developer specialized in <b>Python</b>, <b>Django</b>, and <b>RTC (Real-Time Communication)</b>.  
+       I build secure APIs, WebSocket servers, and scalable backend systems.</p>
+
+    <div class="skills">
+      <div class="skill">Python</div>
+      <div class="skill">Django</div>
+      <div class="skill">REST API</div>
+      <div class="skill">WebSocket</div>
+      <div class="skill">RTC</div>
+      <div class="skill">Server-side</div>
+    </div>
+
+    <div class="socials">
+      <a href="https://github.com/rubayed" target="_blank">🐙</a>
+      <a href="https://linkedin.com/in/rubayed" target="_blank">💼</a>
+      <a href="mailto:rubayed@example.com">📧</a>
+    </div>
+  </div>
+</body>
+</html>
